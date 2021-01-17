@@ -2,7 +2,7 @@
   "configs": {
     "topTaskBar": false,
     "sound": false,
-    "wallpaper": "./res/img/wallpapers/bg1.jpg",
+    "wallpaper": "./res/img/wallpapers/bg1.webp",
     "wallpaperBlur": false,
     "wallpaperSlide": false,
     "wallpaperSlideRandom": true,
@@ -18,60 +18,68 @@
         "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
       },
       {
-        "image": "./res/img/wallpapers/bg1.jpg",
+        "image": "./res/img/wallpapers/bg1.webp",
         "preview": "./res/img/wallpapers/bg1_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg2.jpg",
+        "image": "./res/img/wallpapers/bg2.webp",
         "preview": "./res/img/wallpapers/bg2_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg3.jpg",
+        "image": "./res/img/wallpapers/bg3.webp",
         "preview": "./res/img/wallpapers/bg3_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg4.jpg",
+        "image": "./res/img/wallpapers/bg4.webp",
         "preview": "./res/img/wallpapers/bg4_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg5.jpg",
+        "image": "./res/img/wallpapers/bg5.webp",
         "preview": "./res/img/wallpapers/bg5_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg6.jpg",
+        "image": "./res/img/wallpapers/bg6.webp",
         "preview": "./res/img/wallpapers/bg6_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg7.jpg",
+        "image": "./res/img/wallpapers/bg7.webp",
         "preview": "./res/img/wallpapers/bg7_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg8.jpg",
+        "image": "./res/img/wallpapers/bg8.webp",
         "preview": "./res/img/wallpapers/bg8_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg9.jpg",
+        "image": "./res/img/wallpapers/bg9.webp",
         "preview": "./res/img/wallpapers/bg9_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg10.jpg",
+        "image": "./res/img/wallpapers/bg10.webp",
         "preview": "./res/img/wallpapers/bg10_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg11.jpg",
+        "image": "./res/img/wallpapers/bg11.webp",
         "preview": "./res/img/wallpapers/bg11_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg12.jpg",
+        "image": "./res/img/wallpapers/bg12.webp",
         "preview": "./res/img/wallpapers/bg12_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg13.jpg",
+        "image": "./res/img/wallpapers/bg13.webp",
         "preview": "./res/img/wallpapers/bg13_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg14.jpg",
+        "image": "./res/img/wallpapers/bg14.webp",
         "preview": "./res/img/wallpapers/bg14_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg15.webp",
+        "preview": "./res/img/wallpapers/bg15_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg16.webp",
+        "preview": "./res/img/wallpapers/bg16_1.jpg"
       }
     ],
     "pathRes": "./res",
