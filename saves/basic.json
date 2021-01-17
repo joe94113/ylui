@@ -1,620 +1,889 @@
 {
-  "configs": {
-    "topTaskBar": false,
-    "sound": false,
-    "wallpaper": "./res/img/wallpapers/bg1.webp",
-    "wallpaperBlur": false,
-    "wallpaperSlide": false,
-    "wallpaperSlideRandom": true,
-    "wallpaperSlideItv": 1,
-    "wallpaperSlideTime": 1519442460788,
-    "wallpaperSlideIndex": 8,
-    "openMax": 9,
-    "idCounter": 170,
-    "themeColor": "rgba(2,35,64,1)",
-    "autoThemeColor": true,
-    "wallpapers": [
-      {
-        "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
-      },
-      {
-        "image": "./res/img/wallpapers/bg1.webp",
-        "preview": "./res/img/wallpapers/bg1_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg2.webp",
-        "preview": "./res/img/wallpapers/bg2_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg3.webp",
-        "preview": "./res/img/wallpapers/bg3_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg4.webp",
-        "preview": "./res/img/wallpapers/bg4_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg5.webp",
-        "preview": "./res/img/wallpapers/bg5_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg6.webp",
-        "preview": "./res/img/wallpapers/bg6_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg7.webp",
-        "preview": "./res/img/wallpapers/bg7_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg8.webp",
-        "preview": "./res/img/wallpapers/bg8_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg9.webp",
-        "preview": "./res/img/wallpapers/bg9_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg10.webp",
-        "preview": "./res/img/wallpapers/bg10_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg11.webp",
-        "preview": "./res/img/wallpapers/bg11_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg12.webp",
-        "preview": "./res/img/wallpapers/bg12_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg13.webp",
-        "preview": "./res/img/wallpapers/bg13_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg14.webp",
-        "preview": "./res/img/wallpapers/bg14_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg15.webp",
-        "preview": "./res/img/wallpapers/bg15_1.jpg"
-      },
-      {
-        "image": "./res/img/wallpapers/bg16.webp",
-        "preview": "./res/img/wallpapers/bg16_1.jpg"
-      }
-    ],
-    "pathRes": "./res",
-    "shortcutsSortAuto": true,
-    "debug": false,
-    "winBlur": true
-  },
-  "apps": {
-    "yl-system": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "YLUI系统设置面板",
-      "icon": {
-        "type": "fa",
-        "bg": "#436fde",
-        "content": "gear"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "x": "x*0.05",
-        "y": "y*0.05",
-        "left": true,
-        "top": true,
-        "autoOffset": true
-      },
-      "version": "1.0.0",
-      "poweredBy": "YLUI",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "width": "920",
-        "height": "590"
-      },
-      "title": "系统设置",
-      "url": "./res/apps/yl-system/index.html",
-      "customTile": "",
-      "urlRandomToken": true
+    "configs": {
+        "topTaskBar": false,
+        "sound": false,
+        "wallpaper": "./res/img/wallpapers/bg1.webp",
+        "wallpaperBlur": false,
+        "wallpaperSlide": false,
+        "wallpaperSlideRandom": true,
+        "wallpaperSlideItv": 1,
+        "wallpaperSlideTime": 1519442460788,
+        "wallpaperSlideIndex": 8,
+        "openMax": 9,
+        "idCounter": 190,
+        "themeColor": "rgba(75,76,76,1)",
+        "autoThemeColor": true,
+        "wallpapers": [
+            {
+                "image": "./res/img/wallpapers/bg1.webp",
+                "preview": "./res/img/wallpapers/bg1_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg2.webp",
+                "preview": "./res/img/wallpapers/bg2_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg3.webp",
+                "preview": "./res/img/wallpapers/bg3_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg4.webp",
+                "preview": "./res/img/wallpapers/bg4_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg5.webp",
+                "preview": "./res/img/wallpapers/bg5_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg6.webp",
+                "preview": "./res/img/wallpapers/bg6_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg7.webp",
+                "preview": "./res/img/wallpapers/bg7_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg8.webp",
+                "preview": "./res/img/wallpapers/bg8_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg9.webp",
+                "preview": "./res/img/wallpapers/bg9_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg10.webp",
+                "preview": "./res/img/wallpapers/bg10_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg11.webp",
+                "preview": "./res/img/wallpapers/bg11_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg12.webp",
+                "preview": "./res/img/wallpapers/bg12_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg13.webp",
+                "preview": "./res/img/wallpapers/bg13_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg14.webp",
+                "preview": "./res/img/wallpapers/bg14_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg15.webp",
+                "preview": "./res/img/wallpapers/bg15_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg16.webp",
+                "preview": "./res/img/wallpapers/bg16_1.jpg"
+            }
+        ],
+        "pathRes": "./res",
+        "shortcutsSortAuto": true,
+        "debug": false,
+        "winBlur": true
     },
-    "yl-color-picker": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "简单的取色器",
-      "icon": {
-        "type": "fa",
-        "bg": "#3289c7",
-        "content": "eyedropper"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "x": "(x-207)/2",
-        "y": "(y-239)/2",
-        "left": true,
-        "top": true,
-        "autoOffset": false
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": false,
-      "single": true,
-      "size": {
-        "width": "207",
-        "height": "239"
-      },
-      "title": "取色器",
-      "url": "./res/apps/colorPicker/colorPicker.html",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "yl-browser": {
-      "addressBar": true,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "浏览器",
-      "icon": {
-        "type": "fa",
-        "content": "internet-explorer",
-        "bg": "#3a55c2"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": false,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "浏览器",
-      "url": "./res/apps/browser/index.html",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "yl-app-store": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "",
-      "icon": {
-        "type": "fa",
-        "content": "shopping-bag",
-        "bg": "#b36aba"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "应用商店",
-      "url": "https://appstore.ylui.yuri2.cn",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "yl-app-home": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "YLUI官方网站",
-      "icon": {
-        "type": "fa",
-        "content": "yoast",
-        "bg": "#6b96cf"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "YLUI 官网",
-      "url": "https://ylui.yuri2.cn",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "yl-server": {
-      "addressBar": false,
-      "autoRun": 1,
-      "background": false,
-      "badge": 0,
-      "desc": "YLUI官方后台服务",
-      "icon": {
-        "type": "fa",
-        "content": "yoast",
-        "bg": "#6b96cf"
-      },
-      "openMode": "min",
-      "plugin": true,
-      "position": {
-        "autoOffset": false,
-        "left": false,
-        "top": false,
-        "x": "4",
-        "y": "4"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "80",
-        "width": "160"
-      },
-      "title": "YLUI官方后台服务",
-      "url": "https://server.ylui.yuri2.cn",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "ylui-documents": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "YLUI官方在线文档",
-      "icon": {
-        "type": "fa",
-        "content": "book",
-        "bg": "#d9ab4a"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": false,
-      "single": false,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "在线文档",
-      "url": "https://github.com:/yuri2peter/ylui/tree/master/documents",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "ylui-gitee": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "",
-      "icon": {
-        "type": "str",
-        "content": "G",
-        "bg": "rgb(216,2,18)"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "",
-      "resizable": true,
-      "single": false,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "码云仓库",
-      "url": "https://gitee.com:/yuri2/ylui",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "ylui-github": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "github仓库地址",
-      "icon": {
-        "type": "fa",
-        "content": "github",
-        "bg": "#292929"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "github",
-      "resizable": false,
-      "single": false,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "github",
-      "url": "https://github.com:/yuri2peter/ylui",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "ylui-fa": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "",
-      "icon": {
-        "type": "fa",
-        "content": "flag",
-        "bg": "rgb(53,154,238)"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Font Awesome",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "Font Awesome",
-      "url": "https://fontawesome.com:/cheatsheet",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "ylui-image-host": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "",
-      "icon": {
-        "type": "fa",
-        "content": "image",
-        "bg": "#72b076"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "imgchr.com",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "路过图床",
-      "url": "https://imgchr.com/",
-      "customTile": "",
-      "urlRandomToken": true
-    }
-  },
-  "shortcuts": [
-    {
-      "app": "yl-browser",
-      "title": "浏览器",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "app": "yl-app-store",
-      "title": "应用商店",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "app": "yl-app-home",
-      "title": "YLUI 官网",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "title": "代码库",
-      "children": [
-        {
-          "app": "ylui-documents",
-          "title": "在线文档",
-          "params": {},
-          "hash": ""
+    "apps": {
+        "yl-system": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "YLUI系统设置面板",
+            "icon": {
+                "type": "fa",
+                "bg": "#436fde",
+                "content": "gear"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "x": "x*0.05",
+                "y": "y*0.05",
+                "left": true,
+                "top": true,
+                "autoOffset": true
+            },
+            "version": "1.0.0",
+            "poweredBy": "YLUI",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "width": "920",
+                "height": "590"
+            },
+            "title": "系统设置",
+            "url": "./res/apps/yl-system/index.html",
+            "customTile": "",
+            "urlRandomToken": true
         },
-        {
-          "app": "ylui-github",
-          "title": "github",
-          "params": {},
-          "hash": ""
+        "yl-color-picker": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "简单的取色器",
+            "icon": {
+                "type": "fa",
+                "bg": "#3289c7",
+                "content": "eyedropper"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "x": "(x-207)/2",
+                "y": "(y-239)/2",
+                "left": true,
+                "top": true,
+                "autoOffset": false
+            },
+            "version": "1.0.0",
+            "poweredBy": "Yuri2",
+            "resizable": false,
+            "single": true,
+            "size": {
+                "width": "207",
+                "height": "239"
+            },
+            "title": "取色器",
+            "url": "./res/apps/colorPicker/colorPicker.html",
+            "customTile": "",
+            "urlRandomToken": true
         },
-        {
-          "app": "ylui-gitee",
-          "title": "码云仓库",
-          "params": {},
-          "hash": ""
+        "yl-browser": {
+            "addressBar": true,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "浏览器",
+            "icon": {
+                "type": "fa",
+                "content": "internet-explorer",
+                "bg": "#3a55c2"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Yuri2",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "浏览器",
+            "url": "./res/apps/browser/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "yl-app-store": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "shopping-bag",
+                "bg": "#b36aba"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Yuri2",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "应用商店",
+            "url": "https://appstore.ylui.yuri2.cn",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "yl-server": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "YLUI官方后台服务",
+            "icon": {
+                "type": "fa",
+                "content": "yoast",
+                "bg": "#6b96cf"
+            },
+            "openMode": "min",
+            "plugin": true,
+            "position": {
+                "autoOffset": false,
+                "left": false,
+                "top": false,
+                "x": "4",
+                "y": "4"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Yuri2",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "80",
+                "width": "160"
+            },
+            "title": "YLUI官方后台服务",
+            "url": "https://server.ylui.yuri2.cn",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "ylui-fa": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "flag",
+                "bg": "rgb(53,154,238)"
+            },
+            "openMode": "normal",
+            "plugin": true,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Font Awesome",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Font Awesome",
+            "url": "https://www.thinkcmf.com/font/search.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "ylui-image-host": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "image",
+                "bg": "#72b076"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "imgchr.com",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "路过图床",
+            "url": "https://imgchr.com/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-171": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "个人博客",
+            "icon": {
+                "type": "img",
+                "content": "https://akilar.top/img/siteicon/favicon.png",
+                "bg": "#1b1b1b"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Akilar",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Akilar",
+            "url": "https://akilar.top/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-173": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://blog.vanxnf.top/img/avatar.png",
+                "bg": "rgb(90,27,85)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "VanXNF",
+            "url": "https://blog.vanxnf.top/",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-174": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://zfe.space/images/headimage.png",
+                "bg": "rgb(87,100,200)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "小冰博客",
+            "url": "https://zfe.one/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-175": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://blog.zhheo.com/img/avatar.png",
+                "bg": "rgb(104,181,128)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Heo",
+            "url": "https://blog.zhheo.com/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-176": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://spoience.com/images/avatar.webp",
+                "bg": "rgb(173,2,120)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Spoience",
+            "url": "https://spoience.com/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-177": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png",
+                "bg": "rgb(19,168,58)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "卓越科技",
+            "url": "https://blog.zykjofficial.top/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-178": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://rmt.dogedoge.com/fetch/Flexiston/storage/ava.jpg?fmt=webp",
+                "bg": "rgb(183,66,54)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Flexiston",
+            "url": "https://flesx.cn/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-179": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://android99.me/img/avatar.png",
+                "bg": "rgb(121,89,146)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Android丨矩阵",
+            "url": "https://android99.me/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-180": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png",
+                "bg": "rgb(13,123,167)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "CC康纳百川",
+            "url": "https://blog.ccknbc.cc/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-181": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://cdn.jsdelivr.net/gh/zjwo/CDN@master/img/blog/avatar.jpg",
+                "bg": "rgb(141,55,99)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "小嘉的部落格",
+            "url": "https://blog.imzjw.cn/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-185": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "Butterfly主题文档",
+            "icon": {
+                "type": "fa",
+                "content": " fa-book",
+                "bg": "#6c9394"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Butterfly",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Butterfly",
+            "url": "https://butterfly.js.org/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-188": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "twikoo评论官网",
+            "icon": {
+                "type": "fa",
+                "content": "Example of comments-o fa-comments-o",
+                "bg": "#5e4e5e"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "twikoo",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Twikoo",
+            "url": "https://twikoo.js.org",
+            "customTile": "",
+            "urlRandomToken": true
         }
-      ]
-    }
-  ],
-  "tiles": [
-    {
-      "title": "系统",
-      "data": [
+    },
+    "shortcuts": [
         {
-          "x": 0,
-          "y": 6,
-          "w": 2,
-          "h": 2,
-          "app": "yl-app-store",
-          "title": "应用商店",
-          "i": "91",
-          "params": {},
-          "hash": ""
+            "app": "yl-browser",
+            "title": "浏览器",
+            "params": {},
+            "hash": ""
         },
         {
-          "x": 0,
-          "y": 4,
-          "w": 4,
-          "h": 2,
-          "app": "yl-system",
-          "title": "系统设置",
-          "i": "110",
-          "params": {},
-          "hash": ""
+            "title": "友人帐",
+            "children": [
+                {
+                    "app": "app-171",
+                    "title": "Akilar",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-177",
+                    "title": "卓越科技",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-180",
+                    "title": "CC康纳百川",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-178",
+                    "title": "Flexiston",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-179",
+                    "title": "Android丨矩阵",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-181",
+                    "title": "小嘉的部落格",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-173",
+                    "title": "VanXNF",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-176",
+                    "title": "Spoience",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
         },
         {
-          "x": 4,
-          "y": 4,
-          "w": 2,
-          "h": 2,
-          "app": "yl-browser",
-          "title": "浏览器",
-          "i": "146",
-          "params": {},
-          "hash": ""
+            "title": "常用文档",
+            "children": [
+                {
+                    "app": "app-185",
+                    "title": "Butterfly",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-188",
+                    "title": "Twikoo",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
         },
         {
-          "x": 0,
-          "y": 0,
-          "w": 6,
-          "h": 4,
-          "app": "yl-app-home",
-          "title": "YLUI 官网",
-          "i": "147",
-          "params": {},
-          "hash": ""
+            "app": "app-174",
+            "title": "小冰博客",
+            "params": {},
+            "hash": ""
         },
         {
-          "x": 2,
-          "y": 6,
-          "w": 4,
-          "h": 2,
-          "app": "ylui-documents",
-          "title": "在线文档",
-          "i": "158",
-          "params": {},
-          "hash": ""
+            "app": "app-175",
+            "title": "Heo",
+            "params": {},
+            "hash": ""
         }
-      ]
-    }
-  ],
-  "startMenu": {
-    "width": 620,
-    "height": 494,
-    "sidebar": [
-      {
-        "app": "yl-browser",
-        "title": "浏览器",
-        "params": {},
-        "hash": ""
-      },
-      {
-        "app": "yl-system",
-        "title": "系统设置"
-      }
     ],
-    "menu": {
-      "itemPushed-85": {
-        "app": "yl-browser",
-        "title": "浏览器",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-89": {
-        "app": "yl-app-home",
-        "title": "YLUI 官网",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-96": {
-        "app": "yl-system",
-        "title": "系统设置",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-88": {
-        "app": "yl-app-store",
-        "title": "应用商店",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-153": {
-        "app": "ylui-documents",
-        "title": "在线文档",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-155": {
-        "app": "ylui-gitee",
-        "title": "码云仓库",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-157": {
-        "app": "ylui-github",
-        "title": "github",
-        "params": {},
-        "hash": ""
-      }
+    "tiles": [
+        {
+            "title": "友人帐",
+            "data": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "w": 4,
+                    "h": 4,
+                    "app": "app-171",
+                    "title": "Akilar",
+                    "i": "172",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 4,
+                    "y": 0,
+                    "w": 2,
+                    "h": 2,
+                    "app": "app-185",
+                    "title": "Butterfly",
+                    "i": "186",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        }
+    ],
+    "startMenu": {
+        "width": 620,
+        "height": 494,
+        "sidebar": [
+            {
+                "app": "yl-color-picker",
+                "title": "取色器",
+                "params": {},
+                "hash": ""
+            },
+            {
+                "app": "yl-app-store",
+                "title": "应用商店",
+                "params": {},
+                "hash": ""
+            },
+            {
+                "app": "yl-browser",
+                "title": "浏览器",
+                "params": {},
+                "hash": ""
+            },
+            {
+                "app": "yl-system",
+                "title": "系统设置"
+            }
+        ],
+        "menu": {
+            "itemPushed-170": {
+                "app": "yl-browser",
+                "title": "浏览器",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-182": {
+                "app": "app-175",
+                "title": "Heo",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-183": {
+                "app": "app-171",
+                "title": "Akilar",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-184": {
+                "app": "app-174",
+                "title": "小冰博客",
+                "params": {},
+                "hash": ""
+            }
+        }
     }
-  }
 }

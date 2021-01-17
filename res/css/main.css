@@ -1197,3 +1197,6 @@ body {
     background: url(../../res/img/icon/message.svg) center 56% no-repeat;
     background-size: 22px;
 }
+img.fa {
+    border-radius: 50%;
+}
