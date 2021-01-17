@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 190,
+        "idCounter": 210,
         "themeColor": "rgba(75,76,76,1)",
         "autoThemeColor": true,
         "wallpapers": [
@@ -94,7 +94,7 @@
             "icon": {
                 "type": "fa",
                 "bg": "#436fde",
-                "content": "gear"
+                "content": "gear fa-spin"
             },
             "openMode": "normal",
             "plugin": false,
@@ -711,6 +711,666 @@
             "url": "https://twikoo.js.org",
             "customTile": "",
             "urlRandomToken": true
+        },
+        "app-190": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": " fa-paint-brush",
+                "bg": "rgb(148,31,155)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "日本色",
+            "url": "https://nipponcolors.com/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-191": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "在线转换pug",
+            "icon": {
+                "type": "fa",
+                "content": " fa-pencil",
+                "bg": "#39bd9e"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "PUG-HTML",
+            "url": "http://www.html2jade.org/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-192": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": " fa-star fa-spin",
+                "bg": "rgb(186,109,166)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "emoji大全",
+            "url": "https://www.emojidaquan.com/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-194": {
+            "addressBar": false,
+            "autoRun": 1,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "dashboard",
+                "bg": "#db1453"
+            },
+            "openMode": "min",
+            "plugin": true,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "网站监控",
+            "url": "https://status.akilar.top/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-195": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 28,
+            "desc": "加入qq群",
+            "icon": {
+                "type": "fa",
+                "content": "qq",
+                "bg": "rgb(60,39,131)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "QQ群",
+            "url": "https://jq.qq.com/?_wv=1027&k=tfpo99vC",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-196": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "waline评论管理",
+            "icon": {
+                "type": "fa",
+                "content": "comment-o",
+                "bg": "rgb(75,36,190)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Waline",
+            "url": "https://waline.akilar.top",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-198": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "作者介绍",
+            "icon": {
+                "type": "img",
+                "content": "https://akilar.top/img/author.png",
+                "bg": "#e0e0e0"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Akilar",
+            "url": "",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-200": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "github",
+            "icon": {
+                "type": "fa",
+                "content": "github",
+                "bg": "#000000"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "github",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Github",
+            "url": "https://github.com/akilarlxh/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "iconfont": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "iconfont",
+            "icon": {
+                "type": "str",
+                "content": "iconfont",
+                "bg": "rgb(17,22,81)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "iconfont",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "iconfont",
+            "url": "https://www.iconfont.cn/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "processon": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": " fa-edit",
+                "bg": "#59cbd4"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "processon",
+            "url": "https://www.processon.com/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "tinypng": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "tinypng",
+                "bg": "rgb(72,93,90)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "tinypng",
+            "url": "https://tinypng.com/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "ping": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "ping",
+                "bg": "rgb(18,157,2)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "ping.cn",
+            "url": "https://www.ping.cn/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "photoshop": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "file-photo-o",
+                "bg": "rgb(49,23,136)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "photoshop",
+            "url": "https://ps.gaoding.com/#/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "bilibili": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "bilibili主页",
+            "icon": {
+                "type": "fa",
+                "content": "tv",
+                "bg": "#cc4e8d"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "bilibili",
+            "url": "https://space.bilibili.com/22976782/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "Cloudmusic": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "music",
+                "bg": "#f20a15"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Cloudmusic",
+            "url": "https://music.163.com/#/user/home?id=292643778",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-204": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "cube",
+                "bg": "rgb(69,0,53)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "魔方",
+            "url": "./res/apps/Magic_Cube/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-205": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "space-shuttle",
+                "bg": "#cccc4e"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "吃豆人",
+            "url": "./res/apps/Pac-Man/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-206": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "legal",
+                "bg": "rgb(12,22,61)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "扫雷",
+            "url": "./res/apps/Mine_Clearance/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-207": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "cubes",
+                "bg": "#35d47c"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "叠叠高",
+            "url": "./res/apps/Blocks_Tower/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-208": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "circle-o-notch",
+                "bg": "rgb(147,104,17)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "抓住小猫",
+            "url": "./res/apps/Catch_Cat/index.html",
+            "customTile": "",
+            "urlRandomToken": true
         }
     },
     "shortcuts": [
@@ -787,8 +1447,67 @@
                     "title": "Twikoo",
                     "params": {},
                     "hash": ""
+                },
+                {
+                    "app": "iconfont",
+                    "title": "iconfont",
+                    "params": {},
+                    "hash": ""
                 }
             ]
+        },
+        {
+            "title": "小工具",
+            "children": [
+                {
+                    "app": "app-191",
+                    "title": "PUG-HTML",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-190",
+                    "title": "日本色",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-192",
+                    "title": "emoji大全",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "processon",
+                    "title": "processon",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "tinypng",
+                    "title": "tinypng",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "ping",
+                    "title": "ping.cn",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "photoshop",
+                    "title": "photoshop",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        },
+        {
+            "app": "app-175",
+            "title": "Heo",
+            "params": {},
+            "hash": ""
         },
         {
             "app": "app-174",
@@ -797,10 +1516,69 @@
             "hash": ""
         },
         {
-            "app": "app-175",
-            "title": "Heo",
+            "app": "app-196",
+            "title": "Waline",
             "params": {},
             "hash": ""
+        },
+        {
+            "app": "app-200",
+            "title": "Github",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-195",
+            "title": "QQ群",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "bilibili",
+            "title": "bilibili",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "Cloudmusic",
+            "title": "Cloudmusic",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "title": "游戏",
+            "children": [
+                {
+                    "app": "app-204",
+                    "title": "魔方",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-205",
+                    "title": "吃豆人",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-207",
+                    "title": "叠叠高",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-208",
+                    "title": "抓住小猫",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-206",
+                    "title": "扫雷",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
         }
     ],
     "tiles": [
@@ -881,6 +1659,12 @@
             "itemPushed-184": {
                 "app": "app-174",
                 "title": "小冰博客",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-197": {
+                "app": "app-196",
+                "title": "Waline",
                 "params": {},
                 "hash": ""
             }
