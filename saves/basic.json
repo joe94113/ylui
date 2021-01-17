@@ -159,7 +159,7 @@
             "desc": "浏览器",
             "icon": {
                 "type": "fa",
-                "content": "internet-explorer",
+                "content": "chrome fa-spin",
                 "bg": "#3a55c2"
             },
             "openMode": "normal",
@@ -906,7 +906,7 @@
                 "width": "x*0.8"
             },
             "title": "Waline",
-            "url": "https://waline.akilar.top",
+            "url": "https://waline.akilar.top/ui/",
             "customTile": "",
             "urlRandomToken": true
         },
