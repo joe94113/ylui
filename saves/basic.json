@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "./res/img/wallpapers/bg1.webp",
+        "wallpaper": "./res/img/wallpapers/bg10.webp",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -10,8 +10,8 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 210,
-        "themeColor": "rgba(75,76,76,1)",
+        "idCounter": 212,
+        "themeColor": "rgba(53,59,82,1)",
         "autoThemeColor": true,
         "wallpapers": [
             {
@@ -1152,7 +1152,7 @@
                 "content": "tv",
                 "bg": "#cc4e8d"
             },
-            "openMode": "normal",
+            "openMode": "outer",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -1185,7 +1185,7 @@
                 "content": "music",
                 "bg": "#f20a15"
             },
-            "openMode": "normal",
+            "openMode": "outer",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -1534,18 +1534,6 @@
             "hash": ""
         },
         {
-            "app": "bilibili",
-            "title": "bilibili",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "Cloudmusic",
-            "title": "Cloudmusic",
-            "params": {},
-            "hash": ""
-        },
-        {
             "title": "游戏",
             "children": [
                 {
@@ -1665,6 +1653,18 @@
             "itemPushed-197": {
                 "app": "app-196",
                 "title": "Waline",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-210": {
+                "app": "bilibili",
+                "title": "bilibili",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-211": {
+                "app": "Cloudmusic",
+                "title": "Cloudmusic",
                 "params": {},
                 "hash": ""
             }
