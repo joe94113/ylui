@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 212,
+        "idCounter": 216,
         "themeColor": "rgba(53,59,82,1)",
         "autoThemeColor": true,
         "wallpapers": [
@@ -1338,6 +1338,270 @@
             "url": "./res/apps/Catch_Cat/index.html",
             "customTile": "",
             "urlRandomToken": true
+        },
+        "app-212": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "pug模板引擎",
+                "bg": "rgb(92,34,61)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "pug模板引擎",
+            "url": "https://www.pugjs.cn/api/getting-started.html",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-213": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "telegram",
+                "bg": "rgb(70,128,118)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "谷歌网站测速",
+            "url": "https://www.aicesu.cn/",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "stylus": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "ravelry",
+                "bg": "rgb(195,188,163)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "stylus",
+            "url": "https://stylus.bootcss.com/",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "GReasyfork": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "file-code-o",
+                "bg": "rgb(30,62,99)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "GReasyfork",
+            "url": "https://greasyfork.org/zh-CN/scripts",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-214": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "google",
+                "bg": "rgb(116,184,23)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "google fonts",
+            "url": "https://fonts.google.com/",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "CSS": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "CSS",
+                "bg": "rgb(36,32,101)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "CSS",
+            "url": "https://developer.mozilla.org/zh-CN/docs/Web/CSS",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "git": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "git指令文档",
+            "icon": {
+                "type": "fa",
+                "content": "github",
+                "bg": "rgb(174,72,108)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "git",
+            "url": "https://git-scm.com/book/zh/v2",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "npm": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "npm",
+                "bg": "rgb(172,110,160)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "npm中文文档",
+            "url": "https://www.npmjs.cn/",
+            "customTile": "",
+            "urlRandomToken": false
         }
     },
     "shortcuts": [
@@ -1467,6 +1731,12 @@
                     "title": "photoshop",
                     "params": {},
                     "hash": ""
+                },
+                {
+                    "app": "app-213",
+                    "title": "谷歌网站测速",
+                    "params": {},
+                    "hash": ""
                 }
             ]
         },
@@ -1530,6 +1800,53 @@
                 {
                     "app": "mineclearance",
                     "title": "扫雷",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        },
+        {
+            "app": "GReasyfork",
+            "title": "GReasyfork",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-214",
+            "title": "google fonts",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "title": "语法手册",
+            "children": [
+                {
+                    "app": "CSS",
+                    "title": "CSS",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "stylus",
+                    "title": "stylus",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-212",
+                    "title": "pug模板引擎",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "git",
+                    "title": "git",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "npm",
+                    "title": "npm中文文档",
                     "params": {},
                     "hash": ""
                 }
