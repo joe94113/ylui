@@ -848,7 +848,7 @@
             "addressBar": false,
             "autoRun": 0,
             "background": false,
-            "badge": 28,
+            "badge": 38,
             "desc": "加入qq群",
             "icon": {
                 "type": "fa",
@@ -1615,12 +1615,6 @@
             "title": "友人帐",
             "children": [
                 {
-                    "app": "Akilar",
-                    "title": "Akilar",
-                    "params": {},
-                    "hash": ""
-                },
-                {
                     "app": "zykj",
                     "title": "卓越科技",
                     "params": {},
@@ -1851,6 +1845,12 @@
                     "hash": ""
                 }
             ]
+        },
+        {
+            "app": "Akilar",
+            "title": "Akilar",
+            "params": {},
+            "hash": ""
         }
     ],
     "tiles": [
