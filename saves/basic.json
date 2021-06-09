@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "./res/img/wallpapers/bg10.webp",
+        "wallpaper": "./res/img/wallpapers/bg12.webp",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -11,7 +11,7 @@
         "wallpaperSlideIndex": 8,
         "openMax": 9,
         "idCounter": 216,
-        "themeColor": "rgba(53,59,82,1)",
+        "themeColor": "rgba(26,35,42,1)",
         "autoThemeColor": true,
         "wallpapers": [
             {
@@ -411,7 +411,7 @@
                 "width": "x*0.8"
             },
             "title": "小冰博客",
-            "url": "https://zfe.one/",
+            "url": "https://zfe.space/",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -621,7 +621,7 @@
             "desc": "",
             "icon": {
                 "type": "img",
-                "content": "https://cdn.jsdelivr.net/gh/zjwo/CDN@master/img/blog/avatar.jpg",
+                "content": "https://cdn.jsdelivr.net/npm/nanshen/avatar.jpg",
                 "bg": "rgb(141,55,99)"
             },
             "openMode": "outer",
@@ -848,7 +848,7 @@
             "addressBar": false,
             "autoRun": 0,
             "background": false,
-            "badge": 38,
+            "badge": 0,
             "desc": "加入qq群",
             "icon": {
                 "type": "fa",
