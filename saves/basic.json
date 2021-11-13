@@ -745,15 +745,15 @@
       "customTile": "",
       "urlRandomToken": true
     },
-    "tencent": {
+    "Instagram": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "加入qq群",
+      "desc": "我的IG",
       "icon": {
         "type": "fa",
-        "content": "qq",
+        "content": "instagram",
         "bg": "rgb(60,39,131)"
       },
       "openMode": "outer",
@@ -773,8 +773,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "QQ群",
-      "url": "https://jq.qq.com/?_wv=1027&k=tfpo99vC",
+      "title": "Instagram",
+      "url": "https://www.instagram.com/guan___zhi/",
       "customTile": "",
       "urlRandomToken": true
     },
@@ -1009,15 +1009,15 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "bilibili": {
+    "linkedin": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "bilibili主页",
+      "desc": "我的linkedin",
       "icon": {
         "type": "fa",
-        "content": "tv",
+        "content": "linkedin",
         "bg": "#cc4e8d"
       },
       "openMode": "outer",
@@ -1037,8 +1037,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "bilibili",
-      "url": "https://space.bilibili.com/22976782/",
+      "title": "linkedin",
+      "url": "https://www.linkedin.com/in/joe94113/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1339,7 +1339,7 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "GReasyfork": {
+    "Devdocs": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
@@ -1347,7 +1347,7 @@
       "desc": "",
       "icon": {
         "type": "fa",
-        "content": "file-code-o",
+        "content": "file-code",
         "bg": "rgb(30,62,99)"
       },
       "openMode": "normal",
@@ -1367,8 +1367,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "GReasyfork",
-      "url": "https://greasyfork.org/zh-CN/scripts",
+      "title": "devdocs",
+      "url": "https://devdocs.io/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1643,8 +1643,8 @@
       "hash": ""
     },
     {
-      "app": "tencent",
-      "title": "QQ群",
+      "app": "Instagram",
+      "title": "Instagram",
       "params": {},
       "hash": ""
     },
@@ -1684,8 +1684,8 @@
       ]
     },
     {
-      "app": "GReasyfork",
-      "title": "GReasyfork",
+      "app": "Devdocs",
+      "title": "Devdocs",
       "params": {},
       "hash": ""
     },
@@ -1825,8 +1825,8 @@
         "hash": ""
       },
       "itemPushed-210": {
-        "app": "bilibili",
-        "title": "bilibili",
+        "app": "linkedin",
+        "title": "linkedin",
         "params": {},
         "hash": ""
       },
