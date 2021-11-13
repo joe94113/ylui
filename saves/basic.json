@@ -1346,7 +1346,7 @@
       "badge": 0,
       "desc": "",
       "icon": {
-        "type": "fa",
+        "type": "fab",
         "content": "vuejs",
         "bg": "rgb(30,62,99)"
       },
