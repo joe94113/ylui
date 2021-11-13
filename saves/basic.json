@@ -939,7 +939,7 @@
         "width": "x*0.8"
       },
       "title": "Cloudmusic",
-      "url": "https://music.163.com/#/user/home?id=292643778",
+      "url": "https://music.163.com/#/playlist?id=6688006416",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1389,12 +1389,6 @@
     {
       "app": "github",
       "title": "Github",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "app": "Instagram",
-      "title": "Instagram",
       "params": {},
       "hash": ""
     },
