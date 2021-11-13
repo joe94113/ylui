@@ -1,1957 +1,1841 @@
 {
-    "configs": {
-        "topTaskBar": false,
-        "sound": false,
-        "wallpaper": "./res/img/wallpapers/bg12.webp",
-        "wallpaperBlur": false,
-        "wallpaperSlide": false,
-        "wallpaperSlideRandom": true,
-        "wallpaperSlideItv": 1,
-        "wallpaperSlideTime": 1519442460788,
-        "wallpaperSlideIndex": 8,
-        "openMax": 9,
-        "idCounter": 216,
-        "themeColor": "rgba(26,35,42,1)",
-        "autoThemeColor": true,
-        "wallpapers": [
-            {
-                "image": "./res/img/wallpapers/bg1.webp",
-                "preview": "./res/img/wallpapers/bg1_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg2.webp",
-                "preview": "./res/img/wallpapers/bg2_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg3.webp",
-                "preview": "./res/img/wallpapers/bg3_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg4.webp",
-                "preview": "./res/img/wallpapers/bg4_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg5.webp",
-                "preview": "./res/img/wallpapers/bg5_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg6.webp",
-                "preview": "./res/img/wallpapers/bg6_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg7.webp",
-                "preview": "./res/img/wallpapers/bg7_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg8.webp",
-                "preview": "./res/img/wallpapers/bg8_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg9.webp",
-                "preview": "./res/img/wallpapers/bg9_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg10.webp",
-                "preview": "./res/img/wallpapers/bg10_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg11.webp",
-                "preview": "./res/img/wallpapers/bg11_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg12.webp",
-                "preview": "./res/img/wallpapers/bg12_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg13.webp",
-                "preview": "./res/img/wallpapers/bg13_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg14.webp",
-                "preview": "./res/img/wallpapers/bg14_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg15.webp",
-                "preview": "./res/img/wallpapers/bg15_1.jpg"
-            },
-            {
-                "image": "./res/img/wallpapers/bg16.webp",
-                "preview": "./res/img/wallpapers/bg16_1.jpg"
-            }
-        ],
-        "pathRes": "./res",
-        "shortcutsSortAuto": true,
-        "debug": false,
-        "winBlur": true
-    },
-    "apps": {
-        "yl-system": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "YLUI系统设置面板",
-            "icon": {
-                "type": "fa",
-                "bg": "#436fde",
-                "content": "gear fa-spin"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "x": "x*0.05",
-                "y": "y*0.05",
-                "left": true,
-                "top": true,
-                "autoOffset": true
-            },
-            "version": "1.0.0",
-            "poweredBy": "YLUI",
-            "resizable": true,
-            "single": true,
-            "size": {
-                "width": "920",
-                "height": "590"
-            },
-            "title": "系统设置",
-            "url": "./res/apps/yl-system/index.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "yl-color-picker": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "简单的取色器",
-            "icon": {
-                "type": "fa",
-                "bg": "#3289c7",
-                "content": "eyedropper"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "x": "(x-207)/2",
-                "y": "(y-239)/2",
-                "left": true,
-                "top": true,
-                "autoOffset": false
-            },
-            "version": "1.0.0",
-            "poweredBy": "Yuri2",
-            "resizable": false,
-            "single": true,
-            "size": {
-                "width": "207",
-                "height": "239"
-            },
-            "title": "取色器",
-            "url": "./res/apps/colorPicker/colorPicker.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "yl-browser": {
-            "addressBar": true,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "浏览器",
-            "icon": {
-                "type": "fa",
-                "content": "chrome fa-spin",
-                "bg": "#3a55c2"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.1",
-                "y": "y*0.1"
-            },
-            "version": "1.0.0",
-            "poweredBy": "Yuri2",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "浏览器",
-            "url": "./res/apps/browser/index.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "yl-app-store": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "shopping-bag",
-                "bg": "#b36aba"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.1",
-                "y": "y*0.1"
-            },
-            "version": "1.0.0",
-            "poweredBy": "Yuri2",
-            "resizable": true,
-            "single": true,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "应用商店",
-            "url": "https://appstore.ylui.yuri2.cn",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "yl-server": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "YLUI官方后台服务",
-            "icon": {
-                "type": "fa",
-                "content": "yoast",
-                "bg": "#6b96cf"
-            },
-            "openMode": "min",
-            "plugin": true,
-            "position": {
-                "autoOffset": false,
-                "left": false,
-                "top": false,
-                "x": "4",
-                "y": "4"
-            },
-            "version": "1.0.0",
-            "poweredBy": "Yuri2",
-            "resizable": true,
-            "single": true,
-            "size": {
-                "height": "80",
-                "width": "160"
-            },
-            "title": "YLUI官方后台服务",
-            "url": "https://server.ylui.yuri2.cn",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "ylui-fa": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "flag",
-                "bg": "rgb(53,154,238)"
-            },
-            "openMode": "normal",
-            "plugin": true,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "Font Awesome",
-            "resizable": true,
-            "single": true,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Font Awesome",
-            "url": "https://www.thinkcmf.com/font/search.html",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "ylui-image-host": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "image",
-                "bg": "#72b076"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "imgchr.com",
-            "resizable": true,
-            "single": true,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "路过图床",
-            "url": "https://imgchr.com/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "Akilar": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "个人博客",
-            "icon": {
-                "type": "img",
-                "content": "https://akilar.top/img/siteicon/favicon.png",
-                "bg": "#1b1b1b"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "Akilar",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Akilar",
-            "url": "https://akilar.top/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "vanxnf": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://blog.vanxnf.top/img/avatar.png",
-                "bg": "rgb(90,27,85)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "VanXNF",
-            "url": "https://blog.vanxnf.top/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "zfe": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://zfe.space/images/headimage.png",
-                "bg": "rgb(87,100,200)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "小冰博客",
-            "url": "https://zfe.space/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "Heo": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://blog.zhheo.com/img/avatar.png",
-                "bg": "#ffd262"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Heo",
-            "url": "https://blog.zhheo.com/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "spoience": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://spoience.com/images/avatar.webp",
-                "bg": "rgb(173,2,120)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Spoience",
-            "url": "https://spoience.com/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "zykj": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png",
-                "bg": "rgb(19,168,58)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "卓越科技",
-            "url": "https://blog.zykjofficial.top/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "flesx": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://rmt.dogedoge.com/fetch/Flexiston/storage/ava.jpg?fmt=webp",
-                "bg": "rgb(183,66,54)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Flexiston",
-            "url": "https://flesx.cn/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "android99": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://android99.me/img/avatar.png",
-                "bg": "rgb(121,89,146)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Android丨矩阵",
-            "url": "https://android99.me/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "ccknbc": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png",
-                "bg": "rgb(13,123,167)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "CC康纳百川",
-            "url": "https://blog.ccknbc.cc/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "imzjw": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://cdn.jsdelivr.net/npm/nanshen/avatar.jpg",
-                "bg": "rgb(141,55,99)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "小嘉的部落格",
-            "url": "https://blog.imzjw.cn/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "butterfly": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "Butterfly主题文档",
-            "icon": {
-                "type": "fa",
-                "content": " fa-book",
-                "bg": "#6c9394"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "Butterfly",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Butterfly",
-            "url": "https://butterfly.js.org/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "twikoo": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "twikoo评论官网",
-            "icon": {
-                "type": "fa",
-                "content": "Example of comments-o fa-comments-o",
-                "bg": "#5e4e5e"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "twikoo",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Twikoo",
-            "url": "https://twikoo.js.org",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "nipponcolors": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": " fa-paint-brush",
-                "bg": "rgb(148,31,155)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "日本色",
-            "url": "https://nipponcolors.com/",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "html2jade": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "在线转换pug",
-            "icon": {
-                "type": "fa",
-                "content": " fa-pencil",
-                "bg": "#39bd9e"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "PUG-HTML",
-            "url": "http://www.html2jade.org/",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "emoji": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": " fa-star fa-spin",
-                "bg": "rgb(186,109,166)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "emoji大全",
-            "url": "https://www.emojidaquan.com/",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "uptimestatus": {
-            "addressBar": false,
-            "autoRun": 1,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "dashboard",
-                "bg": "#db1453"
-            },
-            "openMode": "min",
-            "plugin": true,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "网站监控",
-            "url": "https://status.akilar.top/",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "tencent": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "加入qq群",
-            "icon": {
-                "type": "fa",
-                "content": "qq",
-                "bg": "rgb(60,39,131)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "QQ群",
-            "url": "https://jq.qq.com/?_wv=1027&k=tfpo99vC",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "waline": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "waline评论管理",
-            "icon": {
-                "type": "fa",
-                "content": "comment-o",
-                "bg": "rgb(75,36,190)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Waline",
-            "url": "https://waline.akilar.top/ui/",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "github": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "github",
-            "icon": {
-                "type": "fa",
-                "content": "github",
-                "bg": "#000000"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "github",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Github",
-            "url": "https://github.com/akilarlxh/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "iconfont": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "iconfont",
-            "icon": {
-                "type": "str",
-                "content": "iconfont",
-                "bg": "rgb(17,22,81)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "iconfont",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "iconfont",
-            "url": "https://www.iconfont.cn/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "processon": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": " fa-edit",
-                "bg": "#59cbd4"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "processon",
-            "url": "https://www.processon.com/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "tinypng": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "str",
-                "content": "tinypng",
-                "bg": "rgb(72,93,90)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "tinypng",
-            "url": "https://tinypng.com/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "ping": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "str",
-                "content": "ping",
-                "bg": "rgb(18,157,2)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "ping.cn",
-            "url": "https://www.ping.cn/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "photoshop": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "file-photo-o",
-                "bg": "rgb(49,23,136)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "photoshop",
-            "url": "https://ps.gaoding.com/#/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "bilibili": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "bilibili主页",
-            "icon": {
-                "type": "fa",
-                "content": "tv",
-                "bg": "#cc4e8d"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "bilibili",
-            "url": "https://space.bilibili.com/22976782/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "Cloudmusic": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "music",
-                "bg": "#f20a15"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Cloudmusic",
-            "url": "https://music.163.com/#/user/home?id=292643778",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "magiccube": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "cube",
-                "bg": "rgb(69,0,53)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "魔方",
-            "url": "./res/apps/Magic_Cube/index.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "pacman": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "space-shuttle",
-                "bg": "#cccc4e"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "吃豆人",
-            "url": "./res/apps/Pac-Man/index.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "mineclearance": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "legal",
-                "bg": "rgb(12,22,61)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "扫雷",
-            "url": "./res/apps/Mine_Clearance/index.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "blockstower": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "cubes",
-                "bg": "#35d47c"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "叠叠高",
-            "url": "./res/apps/Blocks_Tower/index.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "catchcat": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "circle-o-notch",
-                "bg": "rgb(147,104,17)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "抓住小猫",
-            "url": "./res/apps/Catch_Cat/index.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "app-212": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "str",
-                "content": "pug模板引擎",
-                "bg": "rgb(92,34,61)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "pug模板引擎",
-            "url": "https://www.pugjs.cn/api/getting-started.html",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "app-213": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "telegram",
-                "bg": "rgb(70,128,118)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "谷歌网站测速",
-            "url": "https://www.aicesu.cn/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "stylus": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "ravelry",
-                "bg": "rgb(195,188,163)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "stylus",
-            "url": "https://stylus.bootcss.com/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "GReasyfork": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "file-code-o",
-                "bg": "rgb(30,62,99)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "GReasyfork",
-            "url": "https://greasyfork.org/zh-CN/scripts",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "app-214": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "google",
-                "bg": "rgb(116,184,23)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "google fonts",
-            "url": "https://fonts.google.com/",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "CSS": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "str",
-                "content": "CSS",
-                "bg": "rgb(36,32,101)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "CSS",
-            "url": "https://developer.mozilla.org/zh-CN/docs/Web/CSS",
-            "customTile": "",
-            "urlRandomToken": false
-        },
-        "git": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "git指令文档",
-            "icon": {
-                "type": "fa",
-                "content": "github",
-                "bg": "rgb(174,72,108)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "git",
-            "url": "https://git-scm.com/book/zh/v2",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "npm": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "str",
-                "content": "npm",
-                "bg": "rgb(172,110,160)"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "npm中文文档",
-            "url": "https://www.npmjs.cn/",
-            "customTile": "",
-            "urlRandomToken": false
-        }
-    },
-    "shortcuts": [
-        {
-            "app": "yl-browser",
-            "title": "浏览器",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "title": "友人帐",
-            "children": [
-                {
-                    "app": "zykj",
-                    "title": "卓越科技",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "ccknbc",
-                    "title": "CC康纳百川",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "flesx",
-                    "title": "Flexiston",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "android99",
-                    "title": "Android丨矩阵",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "imzjw",
-                    "title": "小嘉的部落格",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "vanxnf",
-                    "title": "VanXNF",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "spoience",
-                    "title": "Spoience",
-                    "params": {},
-                    "hash": ""
-                }
-            ]
-        },
-        {
-            "title": "常用文档",
-            "children": [
-                {
-                    "app": "butterfly",
-                    "title": "Butterfly",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "twikoo",
-                    "title": "Twikoo",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "iconfont",
-                    "title": "iconfont",
-                    "params": {},
-                    "hash": ""
-                }
-            ]
-        },
-        {
-            "title": "小工具",
-            "children": [
-                {
-                    "app": "html2jade",
-                    "title": "PUG-HTML",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "nipponcolors",
-                    "title": "日本色",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "emoji",
-                    "title": "emoji大全",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "processon",
-                    "title": "processon",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "tinypng",
-                    "title": "tinypng",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "ping",
-                    "title": "ping.cn",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "photoshop",
-                    "title": "photoshop",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "app-213",
-                    "title": "谷歌网站测速",
-                    "params": {},
-                    "hash": ""
-                }
-            ]
-        },
-        {
-            "app": "Heo",
-            "title": "Heo",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "zfe",
-            "title": "小冰博客",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "waline",
-            "title": "Waline",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "github",
-            "title": "Github",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "tencent",
-            "title": "QQ群",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "title": "游戏",
-            "children": [
-                {
-                    "app": "magiccube",
-                    "title": "魔方",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "pacman",
-                    "title": "吃豆人",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "blockstower",
-                    "title": "叠叠高",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "catchcat",
-                    "title": "抓住小猫",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "mineclearance",
-                    "title": "扫雷",
-                    "params": {},
-                    "hash": ""
-                }
-            ]
-        },
-        {
-            "app": "GReasyfork",
-            "title": "GReasyfork",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "app-214",
-            "title": "google fonts",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "title": "语法手册",
-            "children": [
-                {
-                    "app": "CSS",
-                    "title": "CSS",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "stylus",
-                    "title": "stylus",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "app-212",
-                    "title": "pug模板引擎",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "git",
-                    "title": "git",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "npm",
-                    "title": "npm中文文档",
-                    "params": {},
-                    "hash": ""
-                }
-            ]
-        },
-        {
-            "app": "Akilar",
-            "title": "Akilar",
-            "params": {},
-            "hash": ""
-        }
+  "configs": {
+    "topTaskBar": false,
+    "sound": false,
+    "wallpaper": "./res/img/wallpapers/bg12.webp",
+    "wallpaperBlur": false,
+    "wallpaperSlide": false,
+    "wallpaperSlideRandom": true,
+    "wallpaperSlideItv": 1,
+    "wallpaperSlideTime": 1519442460788,
+    "wallpaperSlideIndex": 8,
+    "openMax": 9,
+    "idCounter": 216,
+    "themeColor": "rgba(26,35,42,1)",
+    "autoThemeColor": true,
+    "wallpapers": [
+      {
+        "image": "./res/img/wallpapers/bg1.webp",
+        "preview": "./res/img/wallpapers/bg1_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg2.webp",
+        "preview": "./res/img/wallpapers/bg2_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg3.webp",
+        "preview": "./res/img/wallpapers/bg3_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg4.webp",
+        "preview": "./res/img/wallpapers/bg4_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg5.webp",
+        "preview": "./res/img/wallpapers/bg5_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg6.webp",
+        "preview": "./res/img/wallpapers/bg6_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg7.webp",
+        "preview": "./res/img/wallpapers/bg7_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg8.webp",
+        "preview": "./res/img/wallpapers/bg8_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg9.webp",
+        "preview": "./res/img/wallpapers/bg9_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg10.webp",
+        "preview": "./res/img/wallpapers/bg10_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg11.webp",
+        "preview": "./res/img/wallpapers/bg11_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg12.webp",
+        "preview": "./res/img/wallpapers/bg12_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg13.webp",
+        "preview": "./res/img/wallpapers/bg13_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg14.webp",
+        "preview": "./res/img/wallpapers/bg14_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg15.webp",
+        "preview": "./res/img/wallpapers/bg15_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg16.webp",
+        "preview": "./res/img/wallpapers/bg16_1.jpg"
+      }
     ],
-    "tiles": [
-        {
-            "title": "友人帐",
-            "data": [
-                {
-                    "x": 0,
-                    "y": 0,
-                    "w": 4,
-                    "h": 4,
-                    "app": "Akilar",
-                    "title": "Akilar",
-                    "i": "172",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "x": 4,
-                    "y": 0,
-                    "w": 2,
-                    "h": 2,
-                    "app": "butterfly",
-                    "title": "Butterfly",
-                    "i": "186",
-                    "params": {},
-                    "hash": ""
-                }
-            ]
-        }
-    ],
-    "startMenu": {
-        "width": 620,
-        "height": 494,
-        "sidebar": [
-            {
-                "app": "yl-color-picker",
-                "title": "取色器",
-                "params": {},
-                "hash": ""
-            },
-            {
-                "app": "yl-app-store",
-                "title": "应用商店",
-                "params": {},
-                "hash": ""
-            },
-            {
-                "app": "yl-browser",
-                "title": "浏览器",
-                "params": {},
-                "hash": ""
-            },
-            {
-                "app": "yl-system",
-                "title": "系统设置"
-            }
-        ],
-        "menu": {
-            "itemPushed-170": {
-                "app": "yl-browser",
-                "title": "浏览器",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-182": {
-                "app": "Heo",
-                "title": "Heo",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-183": {
-                "app": "Akilar",
-                "title": "Akilar",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-184": {
-                "app": "zfe",
-                "title": "小冰博客",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-197": {
-                "app": "waline",
-                "title": "Waline",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-210": {
-                "app": "bilibili",
-                "title": "bilibili",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-211": {
-                "app": "Cloudmusic",
-                "title": "Cloudmusic",
-                "params": {},
-                "hash": ""
-            }
-        }
+    "pathRes": "./res",
+    "shortcutsSortAuto": true,
+    "debug": false,
+    "winBlur": true
+  },
+  "apps": {
+    "yl-system": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "YLUI系统设置面板",
+      "icon": {
+        "type": "fa",
+        "bg": "#436fde",
+        "content": "gear fa-spin"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "x": "x*0.05",
+        "y": "y*0.05",
+        "left": true,
+        "top": true,
+        "autoOffset": true
+      },
+      "version": "1.0.0",
+      "poweredBy": "YLUI",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "width": "920",
+        "height": "590"
+      },
+      "title": "系统设置",
+      "url": "./res/apps/yl-system/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-color-picker": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "简单的取色器",
+      "icon": {
+        "type": "fa",
+        "bg": "#3289c7",
+        "content": "eyedropper"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "x": "(x-207)/2",
+        "y": "(y-239)/2",
+        "left": true,
+        "top": true,
+        "autoOffset": false
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": false,
+      "single": true,
+      "size": {
+        "width": "207",
+        "height": "239"
+      },
+      "title": "取色器",
+      "url": "./res/apps/colorPicker/colorPicker.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-browser": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "浏览器",
+      "icon": {
+        "type": "fa",
+        "content": "chrome fa-spin",
+        "bg": "#3a55c2"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "浏览器",
+      "url": "./res/apps/browser/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-app-store": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "shopping-bag",
+        "bg": "#b36aba"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "应用商店",
+      "url": "https://appstore.ylui.yuri2.cn",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-server": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "YLUI官方后台服务",
+      "icon": {
+        "type": "fa",
+        "content": "yoast",
+        "bg": "#6b96cf"
+      },
+      "openMode": "min",
+      "plugin": true,
+      "position": {
+        "autoOffset": false,
+        "left": false,
+        "top": false,
+        "x": "4",
+        "y": "4"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "80",
+        "width": "160"
+      },
+      "title": "YLUI官方后台服务",
+      "url": "https://server.ylui.yuri2.cn",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "ylui-fa": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "flag",
+        "bg": "rgb(53,154,238)"
+      },
+      "openMode": "normal",
+      "plugin": true,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Font Awesome",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Font Awesome",
+      "url": "https://www.thinkcmf.com/font/search.html",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "ylui-image-host": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "image",
+        "bg": "#72b076"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "imgchr.com",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "路过图床",
+      "url": "https://imgchr.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "Joe": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "個人博客",
+      "icon": {
+        "type": "img",
+        "content": "https://joe94113.github.io/images/avatar.png",
+        "bg": "#1b1b1b"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Joe",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Joe",
+      "url": "https://joe94113.github.io",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "Fred": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "img",
+        "content": "https://wangshungde.github.io/images/9.jpg",
+        "bg": "rgb(87,100,200)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "阿德",
+      "url": "https://wangshungde.github.io/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "Denny": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "img",
+        "content": "https://denny628.github.io/images/denny.png",
+        "bg": "#ffd262"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Denny",
+      "url": "https://denny628.github.io/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "spoience": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "img",
+        "content": "https://spoience.com/images/avatar.webp",
+        "bg": "rgb(173,2,120)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Spoience",
+      "url": "https://spoience.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "flesx": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "img",
+        "content": "https://rmt.dogedoge.com/fetch/Flexiston/storage/ava.jpg?fmt=webp",
+        "bg": "rgb(183,66,54)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Flexiston",
+      "url": "https://flesx.cn/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "android99": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "img",
+        "content": "https://android99.me/img/avatar.png",
+        "bg": "rgb(121,89,146)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Android丨矩阵",
+      "url": "https://android99.me/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "imzjw": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "img",
+        "content": "https://cdn.jsdelivr.net/npm/nanshen/avatar.jpg",
+        "bg": "rgb(141,55,99)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "小嘉的部落格",
+      "url": "https://blog.imzjw.cn/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "butterfly": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Butterfly主题文档",
+      "icon": {
+        "type": "fa",
+        "content": " fa-book",
+        "bg": "#6c9394"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Butterfly",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Butterfly",
+      "url": "https://butterfly.js.org/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "twikoo": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "twikoo评论官网",
+      "icon": {
+        "type": "fa",
+        "content": "Example of comments-o fa-comments-o",
+        "bg": "#5e4e5e"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "twikoo",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Twikoo",
+      "url": "https://twikoo.js.org",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "nipponcolors": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": " fa-paint-brush",
+        "bg": "rgb(148,31,155)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "日本色",
+      "url": "https://nipponcolors.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "html2jade": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "在线转换pug",
+      "icon": {
+        "type": "fa",
+        "content": " fa-pencil",
+        "bg": "#39bd9e"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "PUG-HTML",
+      "url": "http://www.html2jade.org/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "emoji": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": " fa-star fa-spin",
+        "bg": "rgb(186,109,166)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "emoji大全",
+      "url": "https://www.emojidaquan.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "uptimestatus": {
+      "addressBar": false,
+      "autoRun": 1,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "dashboard",
+        "bg": "#db1453"
+      },
+      "openMode": "min",
+      "plugin": true,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "网站监控",
+      "url": "https://joe94113.github.io/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "tencent": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "加入qq群",
+      "icon": {
+        "type": "fa",
+        "content": "qq",
+        "bg": "rgb(60,39,131)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "QQ群",
+      "url": "https://jq.qq.com/?_wv=1027&k=tfpo99vC",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "waline": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "waline评论管理",
+      "icon": {
+        "type": "fa",
+        "content": "comment-o",
+        "bg": "rgb(75,36,190)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Waline",
+      "url": "https://waline.akilar.top/ui/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "github": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "github",
+      "icon": {
+        "type": "fa",
+        "content": "github",
+        "bg": "#000000"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "github",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Github",
+      "url": "https://github.com/joe94113/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "iconfont": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "iconfont",
+      "icon": {
+        "type": "str",
+        "content": "iconfont",
+        "bg": "rgb(17,22,81)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "iconfont",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "iconfont",
+      "url": "https://www.iconfont.cn/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "processon": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": " fa-edit",
+        "bg": "#59cbd4"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "processon",
+      "url": "https://www.processon.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "tinypng": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "str",
+        "content": "tinypng",
+        "bg": "rgb(72,93,90)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "tinypng",
+      "url": "https://tinypng.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "ping": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "str",
+        "content": "ping",
+        "bg": "rgb(18,157,2)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "ping.cn",
+      "url": "https://www.ping.cn/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "photoshop": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "file-photo-o",
+        "bg": "rgb(49,23,136)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "photoshop",
+      "url": "https://ps.gaoding.com/#/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "bilibili": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "bilibili主页",
+      "icon": {
+        "type": "fa",
+        "content": "tv",
+        "bg": "#cc4e8d"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "bilibili",
+      "url": "https://space.bilibili.com/22976782/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "Cloudmusic": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "music",
+        "bg": "#f20a15"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Cloudmusic",
+      "url": "https://music.163.com/#/user/home?id=292643778",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "magiccube": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "cube",
+        "bg": "rgb(69,0,53)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "魔方",
+      "url": "./res/apps/Magic_Cube/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "pacman": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "space-shuttle",
+        "bg": "#cccc4e"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "吃豆人",
+      "url": "./res/apps/Pac-Man/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "mineclearance": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "legal",
+        "bg": "rgb(12,22,61)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "扫雷",
+      "url": "./res/apps/Mine_Clearance/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "blockstower": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "cubes",
+        "bg": "#35d47c"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "叠叠高",
+      "url": "./res/apps/Blocks_Tower/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "catchcat": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "circle-o-notch",
+        "bg": "rgb(147,104,17)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "抓住小猫",
+      "url": "./res/apps/Catch_Cat/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "app-212": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "str",
+        "content": "pug模板引擎",
+        "bg": "rgb(92,34,61)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "pug模板引擎",
+      "url": "https://www.pugjs.cn/api/getting-started.html",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "app-213": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "telegram",
+        "bg": "rgb(70,128,118)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "谷歌网站测速",
+      "url": "https://www.aicesu.cn/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "stylus": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "ravelry",
+        "bg": "rgb(195,188,163)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "stylus",
+      "url": "https://stylus.bootcss.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "GReasyfork": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "file-code-o",
+        "bg": "rgb(30,62,99)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "GReasyfork",
+      "url": "https://greasyfork.org/zh-CN/scripts",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "app-214": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "google",
+        "bg": "rgb(116,184,23)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "google fonts",
+      "url": "https://fonts.google.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "CSS": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "str",
+        "content": "CSS",
+        "bg": "rgb(36,32,101)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "CSS",
+      "url": "https://developer.mozilla.org/zh-CN/docs/Web/CSS",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "git": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "git指令文档",
+      "icon": {
+        "type": "fa",
+        "content": "github",
+        "bg": "rgb(174,72,108)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "git",
+      "url": "https://git-scm.com/book/zh/v2",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "npm": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "str",
+        "content": "npm",
+        "bg": "rgb(172,110,160)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "npm中文文档",
+      "url": "https://www.npmjs.cn/",
+      "customTile": "",
+      "urlRandomToken": false
     }
+  },
+  "shortcuts": [
+    {
+      "app": "yl-browser",
+      "title": "浏览器",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "title": "友人帳",
+      "children": [
+        {
+          "app": "Denny",
+          "title": "Denny",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "Fred",
+          "title": "阿德",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "flesx",
+          "title": "Flexiston",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "android99",
+          "title": "Android丨矩阵",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "imzjw",
+          "title": "小嘉的部落格",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "spoience",
+          "title": "Spoience",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "常用文档",
+      "children": [
+        {
+          "app": "butterfly",
+          "title": "Butterfly",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "twikoo",
+          "title": "Twikoo",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "iconfont",
+          "title": "iconfont",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "小工具",
+      "children": [
+        {
+          "app": "html2jade",
+          "title": "PUG-HTML",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "nipponcolors",
+          "title": "日本色",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "emoji",
+          "title": "emoji大全",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "processon",
+          "title": "processon",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "tinypng",
+          "title": "tinypng",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "ping",
+          "title": "ping.cn",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "photoshop",
+          "title": "photoshop",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "app-213",
+          "title": "谷歌网站测速",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+
+    {
+      "app": "waline",
+      "title": "Waline",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "github",
+      "title": "Github",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "tencent",
+      "title": "QQ群",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "title": "遊戲",
+      "children": [
+        {
+          "app": "magiccube",
+          "title": "魔方",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "pacman",
+          "title": "吃豆人",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "blockstower",
+          "title": "叠叠高",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "catchcat",
+          "title": "抓住小猫",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "mineclearance",
+          "title": "掃雷",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "app": "GReasyfork",
+      "title": "GReasyfork",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "app-214",
+      "title": "google fonts",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "title": "語法手冊",
+      "children": [
+        {
+          "app": "CSS",
+          "title": "CSS",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "stylus",
+          "title": "stylus",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "app-212",
+          "title": "pug模板引擎",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "git",
+          "title": "git",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "npm",
+          "title": "npm中文文檔",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "app": "Joe",
+      "title": "Joe",
+      "params": {},
+      "hash": ""
+    }
+  ],
+  "tiles": [
+    {
+      "title": "友人帳",
+      "data": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 4,
+          "h": 4,
+          "app": "Joe",
+          "title": "Joe",
+          "i": "172",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "w": 2,
+          "h": 2,
+          "app": "butterfly",
+          "title": "Butterfly",
+          "i": "186",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    }
+  ],
+  "startMenu": {
+    "width": 620,
+    "height": 494,
+    "sidebar": [
+      {
+        "app": "yl-color-picker",
+        "title": "取色器",
+        "params": {},
+        "hash": ""
+      },
+      {
+        "app": "yl-app-store",
+        "title": "应用商店",
+        "params": {},
+        "hash": ""
+      },
+      {
+        "app": "yl-browser",
+        "title": "浏览器",
+        "params": {},
+        "hash": ""
+      },
+      {
+        "app": "yl-system",
+        "title": "系统设置"
+      }
+    ],
+    "menu": {
+      "itemPushed-170": {
+        "app": "yl-browser",
+        "title": "浏览器",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-182": {
+        "app": "Denny",
+        "title": "Denny",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-183": {
+        "app": "Joe",
+        "title": "Joe",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-184": {
+        "app": "Fred",
+        "title": "阿德",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-197": {
+        "app": "waline",
+        "title": "Waline",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-210": {
+        "app": "bilibili",
+        "title": "bilibili",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-211": {
+        "app": "Cloudmusic",
+        "title": "Cloudmusic",
+        "params": {},
+        "hash": ""
+      }
+    }
+  }
 }
