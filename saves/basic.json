@@ -1280,8 +1280,8 @@
       "badge": 0,
       "desc": "",
       "icon": {
-        "type": "fa",
-        "content": "laravel",
+        "type": "img",
+        "content": "https://laravel.com/img/logomark.min.svg",
         "bg": "rgb(30,62,99)"
       },
       "openMode": "normal",
@@ -1313,8 +1313,8 @@
       "badge": 0,
       "desc": "",
       "icon": {
-        "type": "fa",
-        "content": "php",
+        "type": "img",
+        "content": "https://www.php.net/images/php8/logo_php8.svg",
         "bg": "rgb(30,62,99)"
       },
       "openMode": "normal",
@@ -1346,8 +1346,8 @@
       "badge": 0,
       "desc": "",
       "icon": {
-        "type": "fab",
-        "content": "vuejs",
+        "type": "img",
+        "content": "https://vuejs.org/images/logo.svg",
         "bg": "rgb(30,62,99)"
       },
       "openMode": "normal",
