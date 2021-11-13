@@ -23,7 +23,7 @@ window.YL = {
       // YL:YL,
       configs: {
         topTaskBar: true, //顶部任务栏？默认底部
-        sound: true, //开启声音
+        sound: false, //开启声音
         wallpaper: "./res/img/wallpapers/bg1.jpg",
         wallpaperBlur: false, //壁纸模糊（影响性能）
         wallpaperSlide: false, //壁纸幻灯片

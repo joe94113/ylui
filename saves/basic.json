@@ -2,7 +2,7 @@
   "configs": {
     "topTaskBar": false,
     "sound": false,
-    "wallpaper": "./res/img/wallpapers/bg12.webp",
+    "wallpaper": "./res/img/wallpapers/bg4.webp",
     "wallpaperBlur": false,
     "wallpaperSlide": false,
     "wallpaperSlideRandom": true,
@@ -643,6 +643,39 @@
       },
       "title": "Instagram",
       "url": "https://www.instagram.com/guan___zhi/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "Misteyebrow": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "闆娘霧眉帳號",
+      "icon": {
+        "type": "fa",
+        "content": "eye-dropper",
+        "bg": "rgb(60,39,131)"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "闆娘霧眉帳號",
+      "url": "https://www.instagram.com/moodroom_2021/",
       "customTile": "",
       "urlRandomToken": true
     },
@@ -1416,6 +1449,12 @@
         {
           "app": "Fred",
           "title": "阿德",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "Misteyebrow",
+          "title": "闆娘霧眉帳",
           "params": {},
           "hash": ""
         }
