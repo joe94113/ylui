@@ -194,10 +194,10 @@
               case i.PLAYING:
                 break;
               case i.LOSE:
-                this.setStatusText(f.default("猫已经跑到地图边缘了，你输了"));
+                this.setStatusText(f.default("貓已經跑到地圖邊緣了，你輸了"));
                 break;
               case i.WIN:
-                this.setStatusText(f.default("猫已经无路可走，你赢了"));
+                this.setStatusText(f.default("貓已經無路可走，你贏了"));
                 break;
               default:
                 return;
