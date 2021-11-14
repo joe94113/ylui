@@ -1,31 +1,22 @@
 {
-  "labels":["社交", "视频", "工具", "YLUI", "购物","壁纸","插件"],
+  "labels": ["社交", "視頻", "工具", "YLUI", "購物", "壁紙", "插件"],
   "apps": [
     {
-      "title": "动态壁纸-星球大战",
+      "title": "動態壁紙-星球大戰",
       "icon": "../yl-wallpaper-starwar/preview.png",
-      "labels": [
-        "YLUI",
-        "壁纸"
-      ],
+      "labels": ["YLUI", "壁紙"],
       "url": "./res/apps/yl-wallpaper-starwar/setup.html"
     },
     {
-      "title": "桌面时钟插件",
+      "title": "桌面時鐘插件",
       "icon": "../yl-clock/preview.png",
-      "labels": [
-        "YLUI",
-        "插件"
-      ],
+      "labels": ["YLUI", "插件"],
       "url": "./res/apps/yl-clock/setup.html"
     },
     {
-      "title": "计算器",
+      "title": "計算器",
       "icon": "../yl-calculator/preview.png",
-      "labels": [
-        "YLUI",
-        "工具"
-      ],
+      "labels": ["YLUI", "工具"],
       "url": "./res/apps/yl-calculator/setup.html"
     }
   ]
