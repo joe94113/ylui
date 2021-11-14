@@ -1141,6 +1141,39 @@
       "customTile": "",
       "urlRandomToken": true
     },
+    "catchfish": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "fish",
+        "bg": "rgb(147,104,17)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "捕魚達人",
+      "url": "./res/apps/Catch_Fish/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
     "app-212": {
       "addressBar": false,
       "autoRun": 0,
@@ -1589,6 +1622,12 @@
         {
           "app": "mineclearance",
           "title": "掃雷",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "catchfish",
+          "title": "捕魚達人",
           "params": {},
           "hash": ""
         }
