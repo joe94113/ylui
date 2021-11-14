@@ -1,6 +1,6 @@
 YL.static = {
   /** “关于”信息 */
-  softwareName: "Joeの宅窩", //网站名。请在此处填写您自己的网站名，如王小明的博客。
+  softwareName: "Joeの小屋", //网站名。请在此处填写您自己的网站名，如王小明的博客。
   version: "1.0.0", // 网站版本号
   iconBtnStart: "html5", //主图标
   author: "Joe", //作者
