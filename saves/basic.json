@@ -1150,7 +1150,7 @@
       "icon": {
         "type": "fa",
         "content": "apple",
-        "bg": "rgb(147,104,17)"
+        "bg": "rgb(186, 88, 35)"
       },
       "openMode": "normal",
       "plugin": false,
@@ -1170,7 +1170,7 @@
         "width": "x*0.8"
       },
       "title": "切水果",
-      "url": "http://game.webxinxin.com/fruit/",
+      "url": "./res/apps/fruit/index.html",
       "customTile": "",
       "urlRandomToken": true
     },
