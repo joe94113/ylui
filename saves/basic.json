@@ -608,8 +608,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "网站监控",
-      "url": "https://joe94113.github.io/",
+      "title": "網站監控",
+      "url": "https://joe94113.instatus.com/",
       "customTile": "",
       "urlRandomToken": true
     },
@@ -1141,6 +1141,72 @@
       "customTile": "",
       "urlRandomToken": true
     },
+    "fruit": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "apple",
+        "bg": "rgb(147,104,17)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "切水果",
+      "url": "http://game.webxinxin.com/fruit/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "flappybird": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "plane",
+        "bg": "rgb(147,104,17)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "飛鳥",
+      "url": "http://game.webxinxin.com/flappybird/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
     "app-212": {
       "addressBar": false,
       "autoRun": 0,
@@ -1302,7 +1368,7 @@
         "width": "x*0.8"
       },
       "title": "Laravel",
-      "url": "https://laravel.com/",
+      "url": "https://laravel.com/docs/8.x",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1589,6 +1655,18 @@
         {
           "app": "mineclearance",
           "title": "掃雷",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "fruit",
+          "title": "切水果",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "flappybird",
+          "title": "飛鳥",
           "params": {},
           "hash": ""
         }
